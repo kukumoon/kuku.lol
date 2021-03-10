@@ -47,16 +47,12 @@ const LoadingText: React.FC = () => {
 
     return (
         <div className={"loading-text-container"}>
-            <animated.span style={prop1} className="loading-text">
-                正在打开KUKU GALAXY
-                <br/>
-                <span style={{fontSize: '1.2vw'}}>过程中可能会有卡顿，别惊慌！</span>
-            </animated.span>
-            {/*<animated.span style={prop2} className="loading-text">再等等，就快好了</animated.span>*/}
-            {/*<animated.span style={prop3} className="loading-text">听我念几句诗吧</animated.span>*/}
-            {/*<animated.span style={prop4} className="loading-text">海内存知己，天涯若比邻</animated.span>*/}
-            {/*<animated.span style={prop5} className="loading-text">白日依山尽，黄河入海流</animated.span>*/}
-            {/*<animated.span style={prop6} className="loading-text">你的网有点慢呀兄弟，再等等吧！</animated.span>*/}
+            <animated.span style={prop1} className="loading-text">正在打开KUKU GALAXY</animated.span>
+            <animated.span style={prop2} className="loading-text">再等等，就快好了</animated.span>
+            <animated.span style={prop3} className="loading-text">听我念几句诗吧</animated.span>
+            <animated.span style={prop4} className="loading-text">海内存知己，天涯若比邻</animated.span>
+            <animated.span style={prop5} className="loading-text">白日依山尽，黄河入海流</animated.span>
+            <animated.span style={prop6} className="loading-text">你的网有点慢呀兄弟，再等等吧！</animated.span>
         </div>
     )
 }
