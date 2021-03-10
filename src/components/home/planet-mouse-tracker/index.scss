@@ -1,0 +1,26 @@
+.planet-mouse-tracker {
+  position: fixed;
+  width: 200px;
+  height: 60px;
+  top: 20px;
+  left: 20px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  z-index: 10000;
+}
+
+.planet-mouse-tracker-animated {
+  animation: .5s fade-in ease-in forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

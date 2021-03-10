@@ -1,0 +1,38 @@
+.home-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../assets/images/home-background.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.home-container .kuku-galaxy {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity ease-in-out .5s;
+}
+
+.home-container .kuku-galaxy-hidden {
+  opacity: 0;
+}
+
+.home-container .kuku-galaxy-show {
+  opacity: 1;
+}
+
+.home-container .canvas-paused canvas {
+  cursor: url("../../assets/images/home-cursor-selected.png"), auto;
+}
+
+.home-container .canvas-animated canvas {
+  cursor: url("../../assets/images/home-cursor.png"), auto;
+}
